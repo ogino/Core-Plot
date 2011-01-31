@@ -265,7 +265,7 @@
 		888FC27D12F6AC7000C71BB7 /* Copy headers */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iosuniversal/Headers/${PROJECT_NAME}";
+			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iosuniversal/Headers/CorePlot";
 			dstSubfolderSpec = 0;
 			files = (
 				888FC22612F6AC4000C71BB7 /* _CPFillColor.h in Copy headers */,
