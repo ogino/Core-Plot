@@ -1,0 +1,66 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$protocol_c_p_line_style_delegate-p.html" title="A line style delegate." alt="" coords="181,234,355,265"/>
+<area shape="rect" id="node3" href="$interface_c_p_layer.html" title="Base class for all Core Animation layers in Core Plot." alt="" coords="455,234,527,265"/>
+<area shape="rect" id="node5" href="$interface_c_p_annotation_host_layer.html" title="An annotation host layer is a container layer for annotations." alt="" coords="627,218,800,249"/>
+<area shape="rect" id="node29" href="$interface_c_p_axis.html" title="An abstract axis class." alt="" coords="681,378,745,409"/>
+<area shape="rect" id="node33" href="$interface_c_p_axis_label_group.html" title="A container layer for the axis labels." alt="" coords="644,271,783,302"/>
+<area shape="rect" id="node35" href="$interface_c_p_axis_set.html" title="A container layer for the set of axes for a graph." alt="" coords="671,5,756,35"/>
+<area shape="rect" id="node39" href="$interface_c_p_grid_line_group.html" title="A group of grid line layers." alt="" coords="648,58,779,89"/>
+<area shape="rect" id="node41" href="$interface_c_p_grid_lines.html" title="An abstract class that draws grid lines for an axis." alt="" coords="664,111,763,142"/>
+<area shape="rect" id="node43" href="$interface_c_p_plot_group.html" title="Defines the coordinate system of a plot." alt="" coords="663,165,764,195"/>
+<area shape="rect" id="node45" href="$interface_c_p_text_layer.html" title="A Core Animation layer that displays a single line of text drawn in a uniform style..." alt="" coords="663,325,764,355"/>
+<area shape="rect" id="node7" href="$interface_c_p_bordered_layer.html" title="A layer with rounded corners." alt="" coords="848,191,979,222"/>
+<area shape="rect" id="node17" href="$interface_c_p_plot.html" title="An abstract plot class." alt="" coords="883,318,944,349"/>
+<area shape="rect" id="node27" href="$interface_c_p_plot_area.html" title="A layer representing the actual plotting area of a graph." alt="" coords="868,245,959,275"/>
+<area shape="rect" id="node9" href="$interface_c_p_graph.html" title="An abstract graph class." alt="" coords="1064,151,1141,182"/>
+<area shape="rect" id="node15" href="$interface_c_p_plot_area_frame.html" title="A layer drawn on top of the graph layer and behind all plot elements." alt="" coords="1037,205,1168,235"/>
+<area shape="rect" id="node11" href="$interface_c_p_x_y_graph.html" title="A graph using a cartesian (X&#45;Y) plot space." alt="" coords="1227,151,1320,182"/>
+<area shape="rect" id="node13" href="$interface_c_p_derived_x_y_graph.html" title="An empty XY graph class used for testing themes." alt="" coords="1369,151,1511,182"/>
+<area shape="rect" id="node19" href="$interface_c_p_bar_plot.html" title="A two&#45;dimensional bar plot." alt="" coords="1061,367,1144,398"/>
+<area shape="rect" id="node21" href="$interface_c_p_pie_chart.html" title="A pie chart." alt="" coords="1057,421,1148,451"/>
+<area shape="rect" id="node23" href="$interface_c_p_scatter_plot.html" title="A two&#45;dimensional scatter plot." alt="" coords="1049,261,1156,291"/>
+<area shape="rect" id="node25" href="$interface_c_p_trading_range_plot.html" title="A trading range financial plot." alt="" coords="1027,314,1179,345"/>
+<area shape="rect" id="node31" href="$interface_c_p_x_y_axis.html" title="A 2&#45;dimensional cartesian (X&#45;Y) axis class." alt="" coords="872,378,955,409"/>
+<area shape="rect" id="node37" href="$interface_c_p_x_y_axis_set.html" title="A set of cartesian (X&#45;Y) axes." alt="" coords="863,5,964,35"/>
+<area shape="rect" id="node46" href="$protocol_c_p_responder-p.html" title="The basis of all event processing in Core Plot." alt="" coords="5,406,133,437"/>
+<area shape="rect" id="node49" href="$interface_c_p_plot_space.html" title="Defines the coordinate system of a plot." alt="" coords="219,509,317,539"/>
+<area shape="rect" id="node51" href="$interface_c_p_polar_plot_space.html" title="A plot space using a two&#45;dimensional polar coordinate system." alt="" coords="425,482,556,513"/>
+<area shape="rect" id="node53" href="$interface_c_p_x_y_plot_space.html" title="A plot space using a two&#45;dimensional cartesian coordinate system." alt="" coords="433,535,548,566"/>
+<area shape="rect" id="node54" href="$protocol_c_p_text_style_delegate-p.html" title="A text style delegate." alt="" coords="403,378,579,409"/>
+<area shape="rect" id="node58" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="29,962,109,993"/>
+<area shape="rect" id="node60" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html" title="CALayer" alt="" coords="231,438,305,469"/>
+<area shape="rect" id="node63" href="$interface_c_p_annotation.html" title="An annotation positions a content layer relative to some anchor point." alt="" coords="213,749,323,779"/>
+<area shape="rect" id="node69" href="$interface_c_p_axis_label.html" title="An axis label." alt="" coords="219,802,317,833"/>
+<area shape="rect" id="node73" href="$interface_c_p_color.html" title="Wrapper around CGColorRef." alt="" coords="232,855,304,886"/>
+<area shape="rect" id="node75" href="$interface_c_p_color_space.html" title="Wrapper around CGColorSpaceRef." alt="" coords="213,909,323,939"/>
+<area shape="rect" id="node77" href="$interface_c_p_constrained_position.html" title="Implements a spring and strut positioning algorithm for one dimension." alt="" coords="184,962,352,993"/>
+<area shape="rect" id="node79" href="$interface_c_p_fill.html" title="Draws area fills." alt="" coords="240,1015,296,1046"/>
+<area shape="rect" id="node87" href="$interface_c_p_gradient.html" title="Draws color gradient fills." alt="" coords="221,1069,315,1099"/>
+<area shape="rect" id="node89" href="$interface_c_p_image.html" title="Wrapper around CGImageRef." alt="" coords="229,1122,307,1153"/>
+<area shape="rect" id="node91" href="$interface_c_p_limit_band.html" title="Defines a range and fill used to highlight a band of data." alt="" coords="217,1175,319,1206"/>
+<area shape="rect" id="node93" href="$interface_c_p_line_style.html" title="Wrapper for various line drawing properties." alt="" coords="221,1229,315,1259"/>
+<area shape="rect" id="node95" href="$interface_c_p_numeric_data.html" title="An annotated NSData type." alt="" coords="208,1282,328,1313"/>
+<area shape="rect" id="node99" href="$interface_c_p_plot_range.html" title="Defines a range of plot data." alt="" coords="217,1335,319,1366"/>
+<area shape="rect" id="node102" href="$interface_c_p_plot_symbol.html" title="Plot symbols for CPScatterPlot." alt="" coords="213,1389,323,1419"/>
+<area shape="rect" id="node104" href="$interface_c_p_text_style.html" title="Wrapper for various text style properties." alt="" coords="220,1442,316,1473"/>
+<area shape="rect" id="node106" href="$interface_c_p_theme.html" title="Creates a CPGraph instance formatted with predefined themes." alt="" coords="228,589,308,619"/>
+<area shape="rect" id="node120" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSFormatter_Class/Reference/Reference.html" title="NSFormatter" alt="" coords="217,642,319,673"/>
+<area shape="rect" id="node126" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/UIKit/Reference/UIResponder_Class/Reference/Reference.html.html#//apple_ref/occ/cl/UIResponder" title="UIResponder" alt="" coords="217,695,319,726"/>
+<area shape="rect" id="node65" href="$interface_c_p_layer_annotation.html" title="Positions a content layer relative to some anchor point in a reference layer." alt="" coords="419,802,563,833"/>
+<area shape="rect" id="node67" href="$interface_c_p_plot_space_annotation.html" title="Positions a content layer relative to some anchor point in a plot space." alt="" coords="405,749,576,779"/>
+<area shape="rect" id="node71" href="$interface_c_p_axis_title.html" title="An axis title." alt="" coords="444,855,537,886"/>
+<area shape="rect" id="node81" href="$interface___c_p_fill_color.html" title="Draws CPColor area fills." alt="" coords="441,1069,540,1099"/>
+<area shape="rect" id="node83" href="$interface___c_p_fill_gradient.html" title="Draws CPGradient area fills." alt="" coords="432,962,549,993"/>
+<area shape="rect" id="node85" href="$interface___c_p_fill_image.html" title="Draws CPImage area fills." alt="" coords="440,1015,541,1046"/>
+<area shape="rect" id="node97" href="$interface_c_p_mutable_numeric_data.html" title="An annotated NSMutableData type." alt="" coords="404,1282,577,1313"/>
+<area shape="rect" id="node108" href="$interface_c_p_x_y_theme.html" title="Creates a CPXYGraph instance formatted with padding of 60 on each side and X and..." alt="" coords="441,589,540,619"/>
+<area shape="rect" id="node110" href="$interface_c_p_dark_gradient_theme.html" title="Creates a CPXYGraph instance formatted with dark gray gradient backgrounds and light..." alt="" coords="629,535,797,566"/>
+<area shape="rect" id="node112" href="$interface_c_p_plain_black_theme.html" title="Creates a CPXYGraph instance formatted with black backgrounds and white lines." alt="" coords="640,589,787,619"/>
+<area shape="rect" id="node114" href="$interface_c_p_plain_white_theme.html" title="Creates a CPXYGraph instance formatted with white backgrounds and black lines." alt="" coords="640,642,787,673"/>
+<area shape="rect" id="node116" href="$interface_c_p_slate_theme.html" title="Creates a CPXYGraph instance with colors that match the default iPhone navigation..." alt="" coords="657,695,769,726"/>
+<area shape="rect" id="node118" href="$interface_c_p_stocks_theme.html" title="Creates a CPXYGraph instance formatted with a gradient background and white lines..." alt="" coords="652,482,775,513"/>
+<area shape="rect" id="node122" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSNumberFormatter_Class/Reference/Reference.html.html#//apple_ref/occ/cl/NSNumberFormatter" title="NSNumberFormatter" alt="" coords="415,642,567,673"/>
+<area shape="rect" id="node124" href="$interface_c_p_time_formatter.html" title="A number formatter that converts time intervals to dates. Useful for formatting labels..." alt="" coords="647,749,780,779"/>
+<area shape="rect" id="node128" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iPhone/library/documentation/UIKit/Reference/UIView_Class/UIView/UIView.html" title="UIView" alt="" coords="459,695,523,726"/>
+<area shape="rect" id="node130" href="$interface_c_p_graph_hosting_view.html" title="A container view for displaying a CPGraph." alt="" coords="635,802,792,833"/>
+</map>

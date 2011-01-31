@@ -1,0 +1,15 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$interface_c_p_graph.html" title="An abstract graph class." alt="" coords="296,505,373,535"/>
+<area shape="rect" id="node4" href="$interface_c_p_bordered_layer.html" title="A layer with rounded corners." alt="" coords="377,422,508,453"/>
+<area shape="rect" id="node6" href="$interface_c_p_annotation_host_layer.html" title="An annotation host layer is a container layer for annotations." alt="" coords="372,305,545,335"/>
+<area shape="rect" id="node8" href="$interface_c_p_layer.html" title="Base class for all Core Animation layers in Core Plot." alt="" coords="528,206,600,237"/>
+<area shape="rect" id="node10" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/GraphicsImaging/Reference/CALayer_class/Introduction/Introduction.html" title="CALayer" alt="" coords="461,89,536,119"/>
+<area shape="rect" id="node12" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSObject_Class/Reference/Reference.html" title="NSObject" alt="" coords="272,6,352,37"/>
+<area shape="rect" id="node20" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/Foundation/Classes/NSMutableArray_Class/Reference/Reference.html" title="NSMutableArray" alt="" coords="285,206,408,237"/>
+<area shape="rect" id="node25" href="$interface_c_p_annotation.html" title="An annotation positions a content layer relative to some anchor point." alt="" coords="197,89,307,119"/>
+<area shape="rect" id="node28" href="$interface_c_p_constrained_position.html" title="Implements a spring and strut positioning algorithm for one dimension." alt="" coords="5,89,173,119"/>
+<area shape="rect" id="node14" href="$protocol_c_p_responder-p.html" title="The basis of all event processing in Core Plot." alt="" coords="560,89,688,119"/>
+<area shape="rect" id="node16" href="$protocol_c_p_line_style_delegate-p.html" title="A line style delegate." alt="" coords="712,89,885,119"/>
+<area shape="rect" id="node18" href="doxygen-cocoa-touch-tags.xml$http://developer.apple.com/iphone/library/documentation/Cocoa/Reference/ObjCRuntimeRef/Reference/reference.html" title="BOOL" alt="" coords="381,89,437,119"/>
+<area shape="rect" id="node23" href="$interface_c_p_layer_annotation.html" title="Positions a content layer relative to some anchor point in a reference layer." alt="" coords="117,206,261,237"/>
+</map>
