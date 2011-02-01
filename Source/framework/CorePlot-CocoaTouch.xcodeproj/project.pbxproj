@@ -94,9 +94,6 @@
 		07AEF30310BBF99A0012BEFF /* CPResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AEF30110BBF99A0012BEFF /* CPResponder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07FCF2D3115B54DE00E46606 /* CPSlateTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FCF2D1115B54DE00E46606 /* CPSlateTheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07FCF2D4115B54DE00E46606 /* CPSlateTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FCF2D2115B54DE00E46606 /* CPSlateTheme.m */; };
-		888FC22612F6AC4000C71BB7 /* _CPFillColor.h in Copy headers */ = {isa = PBXBuildFile; fileRef = BC9B828A0FB89E610035D8DA /* _CPFillColor.h */; };
-		888FC22712F6AC4000C71BB7 /* _CPFillGradient.h in Copy headers */ = {isa = PBXBuildFile; fileRef = BC9B828C0FB89E610035D8DA /* _CPFillGradient.h */; };
-		888FC22812F6AC4000C71BB7 /* _CPFillImage.h in Copy headers */ = {isa = PBXBuildFile; fileRef = BC9B828E0FB89E610035D8DA /* _CPFillImage.h */; };
 		888FC22912F6AC4000C71BB7 /* CorePlot-CocoaTouch.h in Copy headers */ = {isa = PBXBuildFile; fileRef = BC9B83C20FB8AC4B0035D8DA /* CorePlot-CocoaTouch.h */; };
 		888FC22A12F6AC4000C71BB7 /* CPAnnotation.h in Copy headers */ = {isa = PBXBuildFile; fileRef = 0718DE4511D1EDBA00AF4851 /* CPAnnotation.h */; };
 		888FC22B12F6AC4000C71BB7 /* CPAnnotationHostLayer.h in Copy headers */ = {isa = PBXBuildFile; fileRef = 0718DE4711D1EDBA00AF4851 /* CPAnnotationHostLayer.h */; };
@@ -152,7 +149,6 @@
 		888FC25D12F6AC4000C71BB7 /* CPStocksTheme.h in Copy headers */ = {isa = PBXBuildFile; fileRef = BCC7EA431006BF5700B39451 /* CPStocksTheme.h */; };
 		888FC25E12F6AC4000C71BB7 /* CPTextLayer.h in Copy headers */ = {isa = PBXBuildFile; fileRef = BC9B829E0FB89E610035D8DA /* CPTextLayer.h */; };
 		888FC25F12F6AC4000C71BB7 /* CPTextStyle.h in Copy headers */ = {isa = PBXBuildFile; fileRef = 07A62FB30FE2234900CD765C /* CPTextStyle.h */; };
-		888FC26012F6AC4000C71BB7 /* CPTextStylePlatformSpecific.h in Copy headers */ = {isa = PBXBuildFile; fileRef = C35A66051102723E00FE24BB /* CPTextStylePlatformSpecific.h */; };
 		888FC26112F6AC4000C71BB7 /* CPTheme.h in Copy headers */ = {isa = PBXBuildFile; fileRef = 072E3F9B0FE2FF7300ACF62F /* CPTheme.h */; };
 		888FC26212F6AC4000C71BB7 /* CPTimeFormatter.h in Copy headers */ = {isa = PBXBuildFile; fileRef = 07A2E71C102DFAD300809BC5 /* CPTimeFormatter.h */; };
 		888FC26312F6AC4000C71BB7 /* CPTradingRangePlot.h in Copy headers */ = {isa = PBXBuildFile; fileRef = 0772B4F110E26A12009CD04C /* CPTradingRangePlot.h */; };
@@ -268,9 +264,6 @@
 			dstPath = "${BUILD_DIR}/${CONFIGURATION}-iosuniversal/Headers/CorePlot";
 			dstSubfolderSpec = 0;
 			files = (
-				888FC22612F6AC4000C71BB7 /* _CPFillColor.h in Copy headers */,
-				888FC22712F6AC4000C71BB7 /* _CPFillGradient.h in Copy headers */,
-				888FC22812F6AC4000C71BB7 /* _CPFillImage.h in Copy headers */,
 				888FC22912F6AC4000C71BB7 /* CorePlot-CocoaTouch.h in Copy headers */,
 				888FC22A12F6AC4000C71BB7 /* CPAnnotation.h in Copy headers */,
 				888FC22B12F6AC4000C71BB7 /* CPAnnotationHostLayer.h in Copy headers */,
@@ -326,7 +319,6 @@
 				888FC25D12F6AC4000C71BB7 /* CPStocksTheme.h in Copy headers */,
 				888FC25E12F6AC4000C71BB7 /* CPTextLayer.h in Copy headers */,
 				888FC25F12F6AC4000C71BB7 /* CPTextStyle.h in Copy headers */,
-				888FC26012F6AC4000C71BB7 /* CPTextStylePlatformSpecific.h in Copy headers */,
 				888FC26112F6AC4000C71BB7 /* CPTheme.h in Copy headers */,
 				888FC26212F6AC4000C71BB7 /* CPTimeFormatter.h in Copy headers */,
 				888FC26312F6AC4000C71BB7 /* CPTradingRangePlot.h in Copy headers */,
@@ -1088,7 +1080,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# set environment\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\" &&\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" &&\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iosuniversal\" &&\nUNIVERSAL_LIBRARY_PATH=\"${UNIVERSAL_LIBRARY_DIR}/lib${PROJECT_NAME}.a\" &&\n\n# Create framework directory structure.\n\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}\" &&\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}/Headers\" &&\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}/Headers/${PROJECT_NAME}\" &&\n\n# Generate universal binary from desktop, device, and simulator builds.\nlipo \"${SIMULATOR_LIBRARY_PATH}\" \"${DEVICE_LIBRARY_PATH}\" -create -output \"${UNIVERSAL_LIBRARY_PATH}\"";
+			shellScript = "# set environment\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\" &&\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" &&\nUNIVERSAL_LIBRARY_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iosuniversal\" &&\nUNIVERSAL_LIBRARY_PATH=\"${UNIVERSAL_LIBRARY_DIR}/lib${PROJECT_NAME}.a\" &&\nLIBRARY_DIR=CorePlot\n\n# Create framework directory structure.\n\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}\" &&\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}/Headers\" &&\nmkdir -p \"${UNIVERSAL_LIBRARY_DIR}/Headers/${LIBRARY_DIR}\" &&\n\n# Generate universal binary from desktop, device, and simulator builds.\nlipo \"${SIMULATOR_LIBRARY_PATH}\" \"${DEVICE_LIBRARY_PATH}\" -create -output \"${UNIVERSAL_LIBRARY_PATH}\"";
 		};
 		C3566B7F10EED04900FB3866 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
