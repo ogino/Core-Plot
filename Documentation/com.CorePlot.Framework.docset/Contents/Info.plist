@@ -9,12 +9,16 @@
      <string>com.CorePlot.Framework.docset</string>
      <key>DocSetFeedName</key>
      <string>Core Plot</string>
+     <key>DocSetPublisherIdentifier</key>
+     <string>com.CorePlot.documentation</string>
+     <key>DocSetPublisherName</key>
+     <string>Core Plot</string>
 	<key>DocSetPublisherIdentifier</key>
 	<string>com.CorePlot.documentation</string>
 	<key>DocSetPublisherName</key>
 	<string>Core Plot</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2009 Core Plot. All rights reserved.</string>
+	<string>Copyright © 2011 Core Plot. All rights reserved.</string>
 </dict>
 
 </plist>

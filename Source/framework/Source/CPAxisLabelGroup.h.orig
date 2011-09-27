@@ -1,8 +1,0 @@
-#import <Foundation/Foundation.h>
-#import "CPAnnotationHostLayer.h"
-
-@interface CPAxisLabelGroup : CPAnnotationHostLayer {
-
-}
-
-@end
